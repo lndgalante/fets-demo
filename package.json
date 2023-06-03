@@ -1,0 +1,17 @@
+{
+  "name": "fets-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/prettier": "^2.7.3"
+  },
+  "dependencies": {
+    "fets": "^0.2.0",
+    "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "dev": "npx tsx watch examples.ts"
+  }
+}
